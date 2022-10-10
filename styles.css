@@ -1,8 +1,11 @@
+html{
+    background: linear-gradient(#e66465, #9198e5);
+}
 .container{
-    padding-top:100px;
     display:flex;
     justify-content: center;
     align-items:center;
+    height: 100vh;
 }
 .grid{
     display:grid;
@@ -20,7 +23,7 @@
     display:flex;
     justify-content: center;
     align-items:center;
-    padding: 20px 40px;
+    padding: 20px 20px;
     background-color: grey;
     color:white;
     border:1px solid black;
@@ -57,7 +60,7 @@
     color:yellow;
 }
 .dis input{
-    width:90%;
+    width:80%;
     color:white;
     padding:5px 20px;
     text-align:right;
